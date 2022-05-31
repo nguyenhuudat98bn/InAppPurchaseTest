@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10883D6F28328C0900441A23 /* PKIAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3FCCB62799BB2300206A2D /* PKIAPHandler.swift */; };
+		10883D7028328C0900441A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3FCCA62799AC2900206A2D /* ViewController.swift */; };
+		10883D7128328C0900441A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3FCCA22799AC2900206A2D /* AppDelegate.swift */; };
+		10883D7228328C0900441A23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3FCCA42799AC2900206A2D /* SceneDelegate.swift */; };
+		10883D7428328C0900441A23 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3FCCB92799C10300206A2D /* StoreKit.framework */; };
+		10883D7528328C0900441A23 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FF8CB727DA369C00B1215C /* CallKit.framework */; };
+		10883D7728328C0900441A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3FCCAD2799AC2B00206A2D /* LaunchScreen.storyboard */; };
+		10883D7828328C0900441A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3FCCAB2799AC2B00206A2D /* Assets.xcassets */; };
+		10883D7928328C0900441A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3FCCA82799AC2900206A2D /* Main.storyboard */; };
 		10FF8CB827DA369C00B1215C /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FF8CB727DA369C00B1215C /* CallKit.framework */; };
 		AA3FCCA32799AC2900206A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3FCCA22799AC2900206A2D /* AppDelegate.swift */; };
 		AA3FCCA52799AC2900206A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3FCCA42799AC2900206A2D /* SceneDelegate.swift */; };
@@ -19,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10883D7D28328C0900441A23 /* InAppPurchaseDN_STG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InAppPurchaseDN_STG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10883D7E28328C0900441A23 /* InAppPurchaseDN copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "InAppPurchaseDN copy-Info.plist"; path = "/Users/datnguyenhuu/InAppPurchaseTest/InAppPurchaseDN copy-Info.plist"; sourceTree = "<absolute>"; };
 		10FF8CB727DA369C00B1215C /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
 		10FF8CB927DA377600B1215C /* InAppPurchaseDNDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InAppPurchaseDNDebug.entitlements; sourceTree = "<group>"; };
 		10FF8CBA27DA3BB600B1215C /* InAppPurchaseDNRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InAppPurchaseDNRelease.entitlements; sourceTree = "<group>"; };
@@ -35,6 +46,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		10883D7328328C0900441A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10883D7428328C0900441A23 /* StoreKit.framework in Frameworks */,
+				10883D7528328C0900441A23 /* CallKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA3FCC9C2799AC2900206A2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +73,7 @@
 				AA3FCCA12799AC2900206A2D /* InAppPurchaseDN */,
 				AA3FCCA02799AC2900206A2D /* Products */,
 				AA3FCCB82799C10300206A2D /* Frameworks */,
+				10883D7E28328C0900441A23 /* InAppPurchaseDN copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				AA3FCC9F2799AC2900206A2D /* InAppPurchaseDN.app */,
+				10883D7D28328C0900441A23 /* InAppPurchaseDN_STG.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +115,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		10883D6D28328C0900441A23 /* InAppPurchaseDN_STG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10883D7A28328C0900441A23 /* Build configuration list for PBXNativeTarget "InAppPurchaseDN_STG" */;
+			buildPhases = (
+				10883D6E28328C0900441A23 /* Sources */,
+				10883D7328328C0900441A23 /* Frameworks */,
+				10883D7628328C0900441A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InAppPurchaseDN_STG;
+			productName = InAppPurchaseDN;
+			productReference = 10883D7D28328C0900441A23 /* InAppPurchaseDN_STG.app */;
+			productType = "com.apple.product-type.application";
+		};
 		AA3FCC9E2799AC2900206A2D /* InAppPurchaseDN */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA3FCCB32799AC2B00206A2D /* Build configuration list for PBXNativeTarget "InAppPurchaseDN" */;
@@ -139,11 +178,22 @@
 			projectRoot = "";
 			targets = (
 				AA3FCC9E2799AC2900206A2D /* InAppPurchaseDN */,
+				10883D6D28328C0900441A23 /* InAppPurchaseDN_STG */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		10883D7628328C0900441A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10883D7728328C0900441A23 /* LaunchScreen.storyboard in Resources */,
+				10883D7828328C0900441A23 /* Assets.xcassets in Resources */,
+				10883D7928328C0900441A23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA3FCC9D2799AC2900206A2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,6 +207,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		10883D6E28328C0900441A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10883D6F28328C0900441A23 /* PKIAPHandler.swift in Sources */,
+				10883D7028328C0900441A23 /* ViewController.swift in Sources */,
+				10883D7128328C0900441A23 /* AppDelegate.swift in Sources */,
+				10883D7228328C0900441A23 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA3FCC9B2799AC2900206A2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +251,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		10883D7B28328C0900441A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InAppPurchaseDN/InAppPurchaseDNDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V2NPA2JVB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "InAppPurchaseDN copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = IAP_STG;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iAP.STG.DATNGUYEN.DEV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10883D7C28328C0900441A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InAppPurchaseDN/InAppPurchaseDNRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V2NPA2JVB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "InAppPurchaseDN copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = IAP_STG;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inapppurchasetest.datnguyen.com.InAppPurchaseDN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Dis_Pro;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		AA3FCCB12799AC2B00206A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -371,6 +496,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10883D7A28328C0900441A23 /* Build configuration list for PBXNativeTarget "InAppPurchaseDN_STG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10883D7B28328C0900441A23 /* Debug */,
+				10883D7C28328C0900441A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AA3FCC9A2799AC2900206A2D /* Build configuration list for PBXProject "InAppPurchaseDN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
